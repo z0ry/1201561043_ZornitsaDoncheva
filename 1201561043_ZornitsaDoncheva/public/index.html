@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="urf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
-		<title>Списък със задачи</title>
+		<title>Телефонен указател</title>
 
 		<!-- We have to install AngulaJS in this page -->
 		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
@@ -43,7 +43,7 @@
 
 			<!-- HEADER AND TODO COUNT -->
 			<div class="jumbotron text-center">
-				<h1>Брой задачи <span class="label label-info">{{ todos.length }}</span></h1>
+				<h1>Брой контакти <span class="label label-info">{{ todos.length }}</span></h1>
 			</div>
 
 			<!-- TODO LIST -->
@@ -67,7 +67,7 @@
 						<div class="form-group">
 
 							<!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-							<input type="text" class="form-control input-lg text-center" placeholder="Нова задача" ng-model="formData.text">
+							<input type="text" class="form-control input-lg text-center" placeholder="Нов контакт" ng-model="formData.text">
 						</div>
 
 						<!-- createToDo() WILL CREATE NEW TODOS -->
