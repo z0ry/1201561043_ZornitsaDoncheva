@@ -47,7 +47,7 @@ function todoController($scope){
 
 	$scope.data = data;
 
-	$scope.hello = "Hello!";
+	$scope.hello = "Hello World!";
 
 	$scope.myAction = function() {
 		return "I am an action and is the result";
@@ -59,7 +59,7 @@ function todoController($scope){
 	}
 
 	$scope.markDone = function(id){
-		var decision = confirm("Сигурни ли сте, че искате да маркирате " + id);
+		var decision = confirm("Are sure you want to mark id = " + id);
 		if (decision) {
 			// ...
 		}

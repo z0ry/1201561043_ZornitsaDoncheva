@@ -2,8 +2,7 @@
 // public/core.js
 var fmiFe = angular.module('fmiFe', []);
 
-function mainController($scope, $http) 
-{
+function mainController($scope, $http) {
 	$scope.formData = {};
 
 	// when landing on the page, get all todos and show them
